@@ -4,14 +4,14 @@ DATE:13/02/19*/
 #include<stdio.h>
 void main()
 {
-int amstrong=0,number,copy,i,reminder;
+int amstrong=0,number,copy,i,rem;
 printf("enter the number");
 scanf("%d",&number);
 copy=number;
 for(i=0;number>0;i++)
 	{
-	reminder=number%10;
-	amstrong=amstrong+(reminder*reminder*reminder);
+	rem=number%10;
+	amstrong=amstrong+(rem*rem*rem);
 	number=number/10;
 	}
 if(amstrong==copy)
