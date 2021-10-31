@@ -12,5 +12,5 @@ while(i<=7)
 	sum=sum+(1/fact);
 	i++;
 	}
-printf("sum of the series is %f",sum);
+printf("the sum of the series is %f",sum);
 }
