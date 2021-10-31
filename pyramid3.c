@@ -11,7 +11,7 @@ DATE:27/02/19*/
 void main()
 { 
 int i,j,limit;
-printf("enter the limit");
+printf("enter limit");
 scanf("%d",&limit);
 for(i=1;i<=limit;i++)
 	{
