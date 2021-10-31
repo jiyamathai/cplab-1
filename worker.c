@@ -5,7 +5,7 @@ date:20/02/19*/
 void main()
 {
 float time;
-printf("ENTER THE TIME OF THE WORKER");
+printf("ENTER TIME OF THE WORKER");
 scanf("%f",&time);
 if(time>=2 && time<3)
 {
